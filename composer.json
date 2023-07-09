@@ -1,0 +1,22 @@
+{
+    "name": "user/phptutorial",
+    "description": "MY Framwork",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-intl": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bdpr17",
+            "email": "bdtask.pr17@gmail.com"
+        }
+    ]
+}
