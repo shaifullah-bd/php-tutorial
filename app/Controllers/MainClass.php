@@ -14,9 +14,9 @@ use App\Controllers\Tutorial1Class;
  * Project main class
  */
 class MainClass{
-  public function run():void
-  {
-    $tutorial1 = new Tutorial1Class();
-    echo $tutorial1->printMsg('Hello World');
-  }
+    public function run():void
+    {
+        $tutorial1 = new Tutorial1Class();
+        $tutorial1->echoPrint();
+    }
 }
